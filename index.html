@@ -20,8 +20,8 @@
         The most effective, cutting-edge learning techniques that you can apply to your daily life.
         <a href="TODO" class="header__link">Learn more →</a>
       </p>
-      <img alt="Image of a person standing on a mossy rock" src="./images/header-image.png"
-        class="header__main-illustration">
+      <img class="header__main-illustration" src="./images/header-image.png"
+        alt="Image of a person standing on a mossy rock">
       <div class="header__square-pic"></div>
     </header>
     <main class="content page__content">
@@ -53,7 +53,7 @@
       <section class="digits content__digits flex-column flex-column_center_horizontal">
         <h2 class="section-title">Facts and figures</h2>
         <p class="section-subtitle digits__section-subtitle">On learning and the brain</p>
-        <div class="table">
+        <ul class="table">
           <li class="table__cell">
             <h3 class="table__heading">86 billion</h3>
             <p class="table__text">The number of neurons in the human brain</p>
@@ -88,12 +88,12 @@
             <h3 class="table__heading">1897</h3>
             <p class="table__text">Publication of Ivan Pavlov's research on classical conditioning</p>
           </li>
-        </div>
+        </ul>
       </section>
 
       <section class="feynman flex-column flex-column_center_horizontal">
-        <div class="feynman__title">The Feynman Technique</div>
-        <div class="feynman__subtitle">Learn without forgetting.</div>
+        <h2 class="feynman__title">The Feynman Technique</h2>
+        <p class="feynman__subtitle">Learn without forgetting.</p>
         <a href="#" class="feynman__link">More →</a>
         <!-- Image is implemented as a background in this one -->
       </section>
@@ -101,8 +101,8 @@
       <section class="kaufman flex-column flex-column_center_horizontal">
         <h2 class="section-title section-title_theme_dark kaufman__section-title">Ten principles of rapid skill
           aquisiition</h2>
-        <div class="section-subtitle section-subtitle_theme_dark kaufman__section-subtitle">by Josh Kaufman</div>
-        <div class="table table_theme_dark kaufman__table">
+        <p class="section-subtitle section-subtitle_theme_dark kaufman__section-subtitle">by Josh Kaufman</p>
+        <ul class="table table_theme_dark kaufman__table">
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
             <p class="table__text table__text_theme_dark">Choose a lovable project.</p>
@@ -143,15 +143,45 @@
             <h3 class="table__heading table__heading_theme_dark">10</h3>
             <p class="table__text table__text_theme_dark">Emphasize quantity and speed.</p>
           </li>
-        </div>
+        </ul>
         <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="Background image of a triangle" />
       </section>
     </main>
     <footer class="footer">
-      <!-- <div class="logo logo_place_header">
-        <img src="images/logo_place_footer.png" alt="Practicum Logo">
-      </div> -->
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright flex-column">
+          <div class="logo logo_place_footer">
+            <img src="images/logo_place_footer.png" alt="Practicum Logo">
+          </div>
+          <div class="footer__author">&copy; 2020. Phoenix Eliot</div>
+        </div>
+        <div class="footer__column footer__column_content_info flex-column">
+          <div class="footer__column-heading">About Practicum by Yandex</div>
+          <div class="footer__column-links flex-column">
+            <a href="https://practicum.yandex.com/" class="footer__link">Home page</a>
+            <a href="#" class="footer__link">Concept</a>
+            <a href="#" class="footer__link">Mentors</a>
+          </div>
+        </div>
+        <div class="footer__column footer__column_content_social flex-column">
+          <div class="footer__column-heading">Social Media</div>
+          <div class="footer__column-links flex-column">
+            <a href="https://www.facebook.com/" class="footer__link">
+              <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="Facebook logo" />
+              Facebook
+            </a>
+            <a href="https://www.instagram.com/" class="footer__link">
+              <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="Instagram logo" />
+              Instagram
+            </a>
+          </div>
+        </div>
 
+
+
+
+
+      </div>
     </footer>
   </div>
 </body>
