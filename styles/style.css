@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000000;
 }
 
 .page__content {
@@ -26,12 +27,14 @@
   align-items: center;
 }
 
+/* Header section */
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* parameters for the header section */
   position: relative;
+  background-color: #f2f2f2;
 }
 
 .header__title {
@@ -47,6 +50,8 @@
   bottom: 30px;
   left: 64px;
   width: 388px;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .header__main-illustration {
