@@ -149,7 +149,6 @@
   margin: 0;
   width: 60%;
   text-align: center;
-
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -159,7 +158,6 @@
   margin: 20px 0 0;
   width: 60%;
   text-align: center;
-
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
@@ -191,6 +189,45 @@
   margin: 20px 0 0;
 }
 
+/* Feynman section */
+
+.feynman {
+  position: relative;
+  height: 790px;
+  background-color: #f2f2f2;
+  background-image: url('/images/feynman.png');
+  background-size: 867px 647px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.feynman__title {
+  margin-top: 100px;
+  width: 775px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #000000;
+  text-decoration: none;
+}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 
