@@ -86,6 +86,54 @@
   margin-bottom: 100px;
 }
 
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  margin: 0;
+  align-self: flex-start;
+  width: 175px;
+  color: #2f80ed;
+
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph {
+  margin: 0; /* Reset default p margins */
+}
+
+.two-columns__paragraph:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 
 .header__square-pic {
