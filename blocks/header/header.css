@@ -1,0 +1,12 @@
+@import './__main-illustration/header__main-illustration.css';
+@import './__square-pic/header__square-pic.css';
+@import './__subtitle/header__subtitle.css';
+@import './__title/header__title.css';
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  position: relative;
+  background-color: #f2f2f2;
+}
