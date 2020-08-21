@@ -1,0 +1,12 @@
+@import './__description/cards__description.css';
+@import './__image/cards__image.css';
+@import './__item/cards__item.css';
+@import './__title/cards__title.css';
+
+.cards {
+  width: 920px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  text-align: center;
+}

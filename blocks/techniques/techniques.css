@@ -1,0 +1,6 @@
+@import './__section_title/techniques__section-title.css';
+@import './__section_subtitle/techniques__section-subtitle.css';
+
+.techniques {
+  margin: 100px auto 0;
+}
