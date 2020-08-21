@@ -7,6 +7,7 @@
 @import './blocks/digits/digits.css';
 @import './blocks/feynman/feynman.css';
 @import './blocks/flex-column/flex-column.css';
+@import './blocks/flex-row/flex-row.css';
 @import './blocks/footer/footer.css';
 @import './blocks/header/header.css';
 @import './blocks/kaufman/kaufman.css';
@@ -16,3 +17,4 @@
 @import './blocks/section-title/section-title.css';
 @import './blocks/table/table.css';
 @import './blocks/two-columns/two-columns.css';
+@import './blocks/video/video.css';
