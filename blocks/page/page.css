@@ -1,6 +1,8 @@
 @import './__content/page__content.css';
 @import './__oakley/page__oakley.css';
 @import './__video/page__video.css';
+@import './__khan/page__khan.css';
+@import './__kaufman/page__kaufman.css';
 
 .page {
   min-width: 1100px;
