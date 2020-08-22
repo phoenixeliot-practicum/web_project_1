@@ -7,4 +7,3 @@ Technologies and techniques used:
 - CSS Grid and Flexbox layouts
 - CSS transitions and animations
 - BEM file structure and CSS naming
-
