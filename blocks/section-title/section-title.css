@@ -1,10 +1,9 @@
 @import './_theme/section-title_theme_dark.css';
+@import './_center/section-title_center.css';
 
 .section-title {
   margin: 0;
   /* TODO: Move these into another class to fix other headers */
-  /* width: 60%; */
-  /* text-align: center; */
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
