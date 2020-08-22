@@ -1,4 +1,6 @@
 @import './__content/page__content.css';
+@import './__oakley/page__oakley.css';
+@import './__video/page__video.css';
 
 .page {
   min-width: 1100px;
